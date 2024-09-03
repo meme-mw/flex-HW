@@ -28,8 +28,8 @@ article{
 
     width:100%;
     z-index: 2;
-    position: relative;
-    transform: translate(0,-240%);
+    position: absolute;
+    top:77vh;
     height:18vh;
     display: flex;
     justify-content: center;
@@ -79,10 +79,11 @@ footer{
     justify-content: center;
     background-color: #F2EB8D;
     z-index: 3; 
-  position: relative;
-  transform: translate(0,-710%);
+  position: absolute;
+  top:94.5vh;
   font-weight: bold;
     font-size: 13px;
+    width:100%;
 }
 footer img{
     padding-left: 1px;
